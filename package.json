@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
+    "start": "babel-node src/index.js",
+    "start-dev": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,12 +15,12 @@
     "cors": "^2.8.5",
     "dotenv": "^15.0.0",
     "express": "^4.17.2",
-    "mongoose": "^6.1.9"
-  },
-  "devDependencies": {
+    "mongoose": "^6.1.9",
     "@babel/core": "^7.16.12",
     "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
   }
 }
