@@ -1,5 +1,6 @@
-# Lannister Pay
+# Lannister-Pay
 A service that calculates transaction fee during an online payment based on pre-configured specs.
+
 ### API Endpoints
 
 <table>
